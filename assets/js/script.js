@@ -155,9 +155,10 @@ const projectsData = {
       "Développement de recommandations personnalisées et offres ciblées basées sur les probabilités prédites",
       "Évaluation des performances avec métriques adaptées (ROC-AUC, Precision-Recall, F1-Score)",
       "Mise en place d'une pipeline d'entraînement et de scoring automatisée",
-      "Rapport d'analyse avec recommandations stratégiques pour réduire le taux de résiliation"
+      "Rapport d'analyse avec recommandations stratégiques pour réduire le taux de résiliation",
     ],
-    results: "Modèle avec 85% d'accuracy et AUC de 0.92 | Identification de 40% des clients à risque"
+    results:
+      "Modèle avec 85% d'accuracy et AUC de 0.92 | Identification de 40% des clients à risque",
   },
   2: {
     title: "Détection de fraude par carte bancaire avec PySpark",
@@ -172,9 +173,10 @@ const projectsData = {
       "Entraînement et comparaison de modèles Random Forest et Gradient Boosted Trees via Spark MLlib",
       "Optimization des paramètres hyperparamètres pour améliorer la détection des fraudes",
       "Évaluation avec métriques adaptées aux données déséquilibrées (Precision, Recall, F1, ROC-AUC)",
-      "Déploiement du modèle en pipeline Spark pour traitement en temps réel des transactions"
+      "Déploiement du modèle en pipeline Spark pour traitement en temps réel des transactions",
     ],
-    results: "Recall de 92% pour détecter les fraudes | Réduction des faux positifs à 3%"
+    results:
+      "Recall de 92% pour détecter les fraudes | Réduction des faux positifs à 3%",
   },
   3: {
     title: "Système de recommandation NLP basé sur les connaissances du PMBOK",
@@ -189,9 +191,10 @@ const projectsData = {
       "Développement d'une application web interactive avec Django pour interagir avec le moteur de recommandation",
       "Traitement avancé du langage naturel et analyse de texte avec SpaCy et NLTK",
       "Utilisation de Graph Neural Networks (GNN) pour améliorer la pertinence des recommandations",
-      "Intégration de fonctionnalités de recherche par mots-clés et filtrage intelligent"
+      "Intégration de fonctionnalités de recherche par mots-clés et filtrage intelligent",
     ],
-    results: "97% de pertinence des recommandations | Base de connaissances structurée de 500+ concepts"
+    results:
+      "97% de pertinence des recommandations | Base de connaissances structurée de 500+ concepts",
   },
   4: {
     title: "Résumé automatique de textes avec Python",
@@ -206,9 +209,10 @@ const projectsData = {
       "Développement d'algorithmes de résumé extractif (TF-IDF, TextRank) et génératif (Seq2Seq)",
       "Évaluation de la qualité des résumés avec des métriques (ROUGE, BLEU)",
       "Optimisation de la compression du texte (réduction de 80% de la taille)",
-      "Création d'une interface utilisateur pour tester et valider les résumés générés"
+      "Création d'une interface utilisateur pour tester et valider les résumés générés",
     ],
-    results: "Compression efficace de 75-85% | ROUGE-1 score de 0.68 | Interface opérationnelle"
+    results:
+      "Compression efficace de 75-85% | ROUGE-1 score de 0.68 | Interface opérationnelle",
   },
   5: {
     title: "RAG MBA ChatBot",
@@ -223,9 +227,10 @@ const projectsData = {
       "Création d'embeddings vectoriels de haute qualité pour les contenus MBA",
       "Configuration et optimisation de la base de données vectorielle Pinecone",
       "Intégration du modèle GPT-4 pour générer des réponses contextualisées et précises",
-      "Développement d'une interface conversationnelle avec gestion de l'historique des discussions"
+      "Développement d'une interface conversationnelle avec gestion de l'historique des discussions",
     ],
-    results: "Accuracy de 89% | Temps de réponse < 2 secondes | 500+ interactions utilisateur testées avec succès"
+    results:
+      "Accuracy de 89% | Temps de réponse < 2 secondes | 500+ interactions utilisateur testées avec succès",
   },
   6: {
     title: "Application RAG avec traitement de documents PDF",
@@ -240,9 +245,10 @@ const projectsData = {
       "Stockage et recherche sémantique efficace des embeddings avec ChromaDB",
       "Intégration du modèle Llama3 pour générer des réponses contextuelles et pertinentes",
       "Développement d'une API FastAPI pour faciliter l'intégration à d'autres systèmes",
-      "Mise en place de mécanismes de caching et optimization des performances pour le traitement batch"
+      "Mise en place de mécanismes de caching et optimization des performances pour le traitement batch",
     ],
-    results: "Support de documents multi-formats | Latence optimisée à < 1.5s | Capacité d'analyse jusqu'à 1000+ pages"
+    results:
+      "Support de documents multi-formats | Latence optimisée à < 1.5s | Capacité d'analyse jusqu'à 1000+ pages",
   },
 };
 

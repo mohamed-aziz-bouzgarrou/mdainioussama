@@ -2101,6 +2101,25 @@ textarea.form-input::-webkit-resizer {
   box-shadow: var(--shadow-5);
 }
 
+.project-modal::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.project-modal::-webkit-scrollbar-track {
+  background: var(--onyx);
+  border-radius: 5px;
+}
+
+.project-modal::-webkit-scrollbar-thumb {
+  background: var(--orange-yellow-crayola);
+  border-radius: 5px;
+}
+
+.project-modal::-webkit-scrollbar-thumb:hover {
+  background: var(--text-gradient-yellow);
+}
+
 @keyframes slideUp {
   0% {
     opacity: 0;
@@ -2237,7 +2256,11 @@ textarea.form-input::-webkit-resizer {
 .project-modal-results {
   margin-top: 30px;
   padding: 20px;
-  background: linear-gradient(135deg, hsla(168, 100%, 45%, 0.1) 0%, hsla(325, 72%, 60%, 0.1) 100%);
+  background: linear-gradient(
+    135deg,
+    hsla(168, 100%, 45%, 0.1) 0%,
+    hsla(325, 72%, 60%, 0.1) 100%
+  );
   border-radius: 8px;
   border: 1px solid var(--orange-yellow-crayola);
 }

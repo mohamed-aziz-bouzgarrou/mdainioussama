@@ -17,56 +17,46 @@
 
   /* gradient */
 
-  --bg-gradient-onyx: linear-gradient(to bottom right, #1e293b 3%, #0f172a 97%);
+  --bg-gradient-onyx: linear-gradient(to bottom right, #ffffff 3%, #f2eefb 97%);
   --bg-gradient-jet:
     linear-gradient(
       to bottom right,
-      rgba(30, 41, 59, 0.25) 0%,
-      rgba(15, 23, 42, 0) 100%
+      rgba(196, 181, 253, 0.18) 0%,
+      rgba(255, 255, 255, 0) 100%
     ),
-    #1e293b;
+    #ffffff;
   --bg-gradient-yellow-1: linear-gradient(
     to bottom right,
-    #38bdf8 0%,
-    rgba(56, 189, 248, 0) 50%
+    #c4b5fd 0%,
+    rgba(196, 181, 253, 0) 50%
   );
   --bg-gradient-yellow-2:
     linear-gradient(
       135deg,
-      rgba(56, 189, 248, 0.25) 0%,
-      rgba(56, 189, 248, 0) 59.86%
+      rgba(196, 181, 253, 0.3) 0%,
+      rgba(196, 181, 253, 0) 59.86%
     ),
-    #1e293b;
+    #f2eefb;
   --border-gradient-onyx: linear-gradient(
     to bottom right,
-    #334155 0%,
-    rgba(51, 65, 85, 0) 50%
+    #ddd6f3 0%,
+    rgba(221, 214, 243, 0) 50%
   );
-  --text-gradient-yellow: linear-gradient(to right, #38bdf8, #0ea5e9);
+  --text-gradient-yellow: linear-gradient(to right, #b9a5f5, #9275d2);
 
   /* solid */
 
-  --jet: #334155;
-  /* Slate 700 */
-  --onyx: #1e293b;
-  /* Slate 800 */
-  --eerie-black-1: #334155;
-  /* Slate 700 */
-  --eerie-black-2: #1e293b;
-  /* Slate 800 */
-  --smoky-black: #0f172a;
-  /* Slate 900 */
-  --white-1: #f8fafc;
-  /* Slate 50 */
-  --white-2: #f1f5f9;
-  /* Slate 100 */
-  --orange-yellow-crayola: #38bdf8;
-  /* Sky 400 */
-  --vegas-gold: #0ea5e9;
-  /* Sky 500 */
-  --light-gray: #cbd5e1;
-  /* Slate 300 */
-  --light-gray-70: rgba(203, 213, 225, 0.7);
+  --jet: #ddd6f3;
+  --onyx: #f2eefb;
+  --eerie-black-1: #ebe5f7;
+  --eerie-black-2: #ffffff;
+  --smoky-black: #f7f4fc;
+  --white-1: #514a63;
+  --white-2: #2f2940;
+  --orange-yellow-crayola: #a78bdf;
+  --vegas-gold: #8568c5;
+  --light-gray: #6b6478;
+  --light-gray-70: rgba(107, 100, 120, 0.7);
   --bittersweet-shimmer: #ef4444;
   /* Red 500 */
 
@@ -97,11 +87,11 @@
    * shadow
    */
 
-  --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
-  --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
-  --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.25);
-  --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.15);
-  --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
+  --shadow-1: -4px 8px 24px hsla(258, 35%, 45%, 0.1);
+  --shadow-2: 0 16px 30px hsla(258, 35%, 45%, 0.12);
+  --shadow-3: 0 16px 40px hsla(258, 35%, 45%, 0.14);
+  --shadow-4: 0 25px 50px hsla(258, 35%, 45%, 0.1);
+  --shadow-5: 0 24px 80px hsla(258, 35%, 45%, 0.16);
 
   /**
    * transition
@@ -486,7 +476,7 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: hsla(240, 1%, 17%, 0.75);
+  background: hsla(0, 0%, 100%, 0.85);
   backdrop-filter: blur(10px);
   border: 1px solid var(--jet);
   border-radius: 12px 12px 0 0;
@@ -535,6 +525,15 @@ main {
 
 .about-text p {
   margin-bottom: 15px;
+}
+
+.download-cv {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 10px 20px;
+  background: var(--orange-yellow-crayola);
+  color: var(--white-2);
+  border-radius: 5px;
 }
 
 /**
@@ -996,7 +995,7 @@ main {
 }
 
 .select-item button:hover {
-  --eerie-black-2: hsl(240, 2%, 20%);
+  --eerie-black-2: #f2eefb;
 }
 
 .project-list {
